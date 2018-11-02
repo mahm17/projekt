@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<h1>Alla kommuner</h1>
+<a href="/">Tillbaka</a>
+
+<table>
+    <tr>
+        <th>
+            Objekt Id
+        </th>
+        <th>
+            Namn
+        </th>
+        <th>
+            Id
+        </th>
+        <th>
+            Area
+        </th>
+        <th>
+            Längd
+        </th>
+    </tr>
+    <% for (const row of res) { %>
+        <tr>
+            <td>
+                <%= row.object_id %>
+            </td>
+            <td>
+                <%= row.namn %>
+            </td>
+            <td>
+                <%= row.id %>
+            </td>
+            <td>
+                <%= row.area %>
+            </td>
+            <td>
+                <%= row.length %>
+            </td>
+        </tr>
+    <% }; %>
+</table>

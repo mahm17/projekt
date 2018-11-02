@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+body {
+    background: #eee;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 2rem 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    float: none;
+    text-align: left;
+}

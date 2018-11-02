@@ -1,0 +1,219 @@
+
+
+Kunduppgifter
+Kund
+  Borgholms kommun
+Kontaktperson
+ FORMTEXT      
+Tekniker
+ FORMTEXT Lars Magnusson
+Datum
+ FORMTEXT 2018-05-08
+Systemnummer
+ FORMTEXT 4602680
+Version
+ FORMTEXT 18.0.90
+Koordinatsystem
+ FORMTEXT SWEREF99_16_30
+
+Licensserver
+ArcGIS, Server (IP)
+ FORMTEXT LICENSE (10.6.0.100)
+Portar låsta till 27000 och 51152
+
+Databasserver
+Server (IP)
+ FORMTEXT GEOSECMA-D (10.6.1.111)
+Operativsystem
+ FORMDROPDOWN    FORMCHECKBOX  x64   FORMDROPDOWN   FORMCHECKBOX  Virtuell
+Version
+ FORMDROPDOWN    FORMCHECKBOX  x64   FORMDROPDOWN 
+Lösen sa
+ FORMTEXT      
+Lösen sde
+ FORMTEXT      
+Systemdatabas
+ FORMTEXT      
+Systemanvändare - Lösen
+ FORMTEXT       –  FORMTEXT      
+Lösen gng
+ FORMTEXT      
+Databaser
+Beskrivning
+ FORMTEXT sde_geofir
+sde_geolocator
+sde_geoltf
+sde_geoplan_borgholm
+sde_geopri
+sde_geostreet
+sde_extern
+sde_intern
+sde_orto
+sde_vaplan
+ FORMTEXT GEOSECMA Fastighetsdata
+GEOSECMA Platsdata
+GEOSECMA Trafikdata
+GEOSECMA Plandata
+GEOSECMA Kartdata
+GEOSECMA Gatudata (LVDB)
+Egen, icke modulbunden, data
+Egen, icke modulbunden, data
+Egen, icke modulbunden, data
+Egen, icke modulbunden, data
+Fastighetsdatavyer
+ FORMCHECKBOX 
+Backup
+ FORMTEXT Hanteras av IT
+
+ArcGIS Server
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Operativsystem
+ FORMDROPDOWN    FORMCHECKBOX  x64   FORMDROPDOWN   FORMCHECKBOX  Virtuell
+Serverkatalog
+ FORMTEXT C:\arcgisserver
+Serverkonto – Lösen
+ FORMTEXT       –  FORMTEXT      
+Server Manager
+ FORMTEXT      
+Administratör – Lösen
+ FORMTEXT       –  FORMTEXT      
+Användarkatalog
+ FORMDROPDOWN 
+Dokumentkatalog - Delning
+ FORMTEXT C:\arcgisdata -  FORMTEXT \\GEOSECMA-A\arcgisdata
+Installationskatalog WA
+ FORMTEXT C:\inetpub\wwwroot\arcgis
+Adress WA
+ FORMTEXT http://geosecma-a/arcgis/
+Databaskomprimering
+ FORMTEXT C:\scheduler\sde_compress.cmd @  FORMTEXT 20:00 söndagar
+
+GEOSECMA tjänstekonto
+Konto – Lösen
+ FORMTEXT       -  FORMTEXT      
+
+GEOSECMA webbtjänst: Identity Provider
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Identity Provider
+Programpool
+ FORMTEXT GEOSECMA Identity Provider
+Adress
+ FORMTEXT http://geosecma-a/login/
+
+GEOSECMA webbtjänst: Business Logic
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Business Logic
+Programpool
+ FORMTEXT GEOSECMA Business Logic
+Adress
+ FORMTEXT http://geosecma-a/bl/
+
+GEOSECMA webbtjänst: Business Services
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Business Services
+Programpool
+ FORMTEXT GEOSECMA Business Services
+Adress
+ FORMTEXT http://geosecma-a/services/
+
+GEOSECMA Manager webbapplikation
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Manager
+Programpool
+ FORMTEXT GEOSECMA Manager
+Adress
+ FORMTEXT http://geosecma-a/manager/?lang=sv
+Systemadministratörsgrupp
+ FORMTEXT GEOSECMA-Sysadmin
+Användarautensiering
+ FORMDROPDOWN 
+
+GEOSECMA webbapplikation
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Web Application (SSO)
+Programpool
+ FORMTEXT GEOSECMA Web Application
+Adress
+ FORMTEXT http://geosecma-a/map/?lang=sv
+Användarautensiering
+ FORMDROPDOWN 
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\GEOSECMA Web Application (FED)
+Programpool
+ FORMTEXT GEOSECMA Web Application
+Adress
+ FORMTEXT http://geosecma-a/tmap/?lang=sv
+Användarautensiering
+ FORMDROPDOWN 
+
+GEOSECMA Trafik webbapplikation (Silverlight)
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\geosla
+Programpool
+ FORMTEXT geosla
+Adress
+ FORMTEXT http://geosecma-a:94/?lang=sv
+Användarautensiering
+ FORMDROPDOWN 
+
+GEOSECMA webbtjänst: Befolkning
+Server (IP)
+ FORMTEXT GEOSECMA-A (10.6.1.110)
+Installationskatalog
+ FORMTEXT C:\inetpub\geokir
+Programpool
+ FORMTEXT geokir
+Adress
+ FORMTEXT http://geosecma-a:84/partner.asmx
+KIR-server (IP)
+ FORMTEXT      
+KIR-användare – Lösen
+ FORMTEXT       –  FORMTEXT      
+
+Arken
+Adress
+ FORMTEXT http://arkenproxyclient.borgholm.it:8080/arkenproxyclient/
+
+Installationsfiler
+ FORMTEXT G:\GIS\Geosecma\Install
+
+Extern ArcGIS Server
+Server (IP)
+ FORMTEXT GEOSECMA-W (194.68.122.94)
+Operativsystem
+ FORMDROPDOWN    FORMCHECKBOX  x64   FORMDROPDOWN   FORMCHECKBOX  Virtuell
+Serverkatalog
+ FORMTEXT C:\arcgisserver
+Serverkonto – Lösen
+ FORMTEXT       –  FORMTEXT      
+Server Manager
+ FORMTEXT      
+Administratör – Lösen
+ FORMTEXT       –  FORMTEXT      
+Användarkatalog
+ FORMDROPDOWN 
+Dokumentkatalog - Delning
+ FORMTEXT C:\arcgisdata -  FORMTEXT \\GEOSECMA-W\arcgisdata
+Installationskatalog WA
+ FORMTEXT C:\inetpub\wwwroot\arcgis
+Adress WA
+ FORMTEXT https://kommunkarta.borgholm.se/arcgis/
+
+Övrigt
+
+ FORMTEXT      
